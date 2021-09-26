@@ -44,6 +44,8 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define MATRIX_COL_PINS { B3, B2, F5, B1, B0, B5, C3, B6, C4, C5, C2, C6, C7, C1 }
 #define LED_CAPS_LOCK_PIN F7
 #define BACKLIGHT_PIN B7
+#define BACKLIGHT_LEVELS 6
+#define BACKLIGHT_BREATHING
 #define UNUSED_PINS
 
 /* COL2ROW, ROW2COL */
