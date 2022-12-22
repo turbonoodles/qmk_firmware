@@ -29,3 +29,6 @@
 
 /* Enable caps-lock LED */
 #define CAPS_LOCK_LED_INDEX 52
+
+// Unicode character support via WinCompose
+#define UNICODE_SELECTED_MODES UNICODE_MODE_WINCOMPOSE
