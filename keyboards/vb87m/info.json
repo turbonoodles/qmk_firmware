@@ -1,19 +1,13 @@
 {
     "keyboard_name": "vb87m",
+    "manufacturer": "Varmilo, but not really",
     "url": "",
-    "maintainer": "Craig McMahon",
+    "maintainer": "turbonoodles",
     "width": 14,
     "height": 8,
-    "layouts": {
-        "LAYOUT": {
-            "layout": [
-                {"label": "k00", "x": 0, "y": 0},
-                {"label": "k01", "x": 1, "y": 0},
-                {"label": "k02", "x": 2, "y": 0},
-
-                {"label": "k10", "x": 0, "y": 1, "w": 1.5},
-                {"label": "k12", "x": 1.5, "y": 1, "w": 1.5}
-            ]
-        }
+    "usb": {
+        "vid":"0xFEED",
+        "pid":"0xBEEF",
+        "device_version":"1.0.0"
     }
 }

@@ -92,7 +92,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     [_BASE] = LAYOUT(
         KC_NO,         KC_NO,         KC_NO,       KC_B,        KC_N,     KC_NO,    KC_NO,   KC_F12,   KC_SLSH,      KC_RGHT, KC_LEFT, KC_DOWN, KC_RALT,  KC_NO,   
         KC_ESC,        KC_F6,         KC_F4,       KC_G,        KC_H,     KC_F6,    KC_NO,   KC_F11,   KC_QUOT,      KC_UP,   KC_NO,   KC_SPC,  KC_LALT,  KC_NO,   
-        KC_A,          KC_S,          KC_D,        KC_F,        KC_J,     KC_K,     KC_L,    KC_BSLS,  KC_SCOLON,    KC_NO,   KC_RWIN, KC_RSPC, MO(_MEDIA),    KC_NO,                        
+        KC_A,          KC_S,          KC_D,        KC_F,        KC_J,     KC_K,     KC_L,    KC_BSLS,  KC_SCLN,      KC_NO,   KC_RWIN, KC_RSPC, MO(_MEDIA),    KC_NO,                        
         KC_Q,          KC_W,          KC_E,        KC_R,        KC_U,     KC_I,     KC_O,    KC_NO,    KC_P,         KC_NO,   KC_NO,   KC_NO,   KC_PAUSE, KC_NO, 
         KC_1,          KC_2,          KC_3,        KC_4,        KC_7,     KC_8,     KC_9,    KC_F10,   KC_0,         KC_END,  KC_NO,   KC_NO,   KC_F5,    KC_PGDN,            
         KC_TAB,        KC_CAPS,       KC_F3,       KC_T,        KC_Y,     KC_RBRC,  KC_F7,   KC_BSPC,  KC_LBRC,      KC_NO,   KC_LWIN, KC_LSPO, KC_NO,    KC_NO,   

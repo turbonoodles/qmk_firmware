@@ -20,11 +20,6 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #include "config_common.h"
 
 /* USB Device descriptor parameter */
-#define VENDOR_ID    0xFEED
-#define PRODUCT_ID   0xBEEF
-#define DEVICE_VER   0x0001
-#define MANUFACTURER Craig McMahon
-#define PRODUCT      vb87m
 
 /* key matrix size */
 #define MATRIX_ROWS 8
@@ -151,4 +146,4 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 //#define BOOTMAGIC_LITE_COLUMN 0
 
 // Unicode character support via WinCompose
-#define UNICODE_SELECTED_MODES UC_WINC
+#define UNICODE_SELECTED_MODES UNICODE_MODE_WINCOMPOSE
