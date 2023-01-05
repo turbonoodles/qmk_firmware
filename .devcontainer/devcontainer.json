@@ -1,0 +1,10 @@
+{
+	"name": "QMKBuild",
+	"build": {
+		"dockerfile": "../util/vagrant/Dockerfile"
+	},
+	"extensions": [
+		"ms-code.cpptools",
+		"editorconfig.editorc"
+	]
+}
