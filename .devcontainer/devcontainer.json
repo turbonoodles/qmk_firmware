@@ -1,7 +1,8 @@
 {
 	"name": "QMKBuild",
 	"build": {
-		"dockerfile": "../util/vagrant/Dockerfile"
+		"context": "../",
+		"dockerfile": "../Dockerfile"
 	},
 	"extensions": [
 		"ms-code.cpptools",
